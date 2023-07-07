@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Zerando todos a margins e etc..
+*{
+
+} 
+
+*/
+/*  Mudar o corpo da página */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0; /* Margem externa */
+	padding: 0; /* Margem interna */
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #6b6774;
+	
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.topnav{/*  Ponto para configurar classe */
+	background-color: #f00e2c;
+	overflow: hidden;/* Ajusta a medida que eu determinar */
+	
+}
+.topnav a {/*Abrindo a clase  */
+	font-family: 'Owald', 'sans-serif';
+	font-size: 20px;
+	float: left;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.topnav a:hover{
+	background-color: #f8fc12;
+	color: #37f308;
+}
+.topnav a.ativo{
+	background-color: #400ad3;
+	color: #ffffff;
+}
+.titulo1{
+	text-align: center;
+	font-family: 'Press Start 2P';
+	color: #f508e9;
+}
+/* Footer */
+footer{
+	text-align: center;
+	background-color: #dd0ef0;
+	color: #ffffff;
+	width: 100%;
+	height: 10rem;
+	position: absolute;
+	bottom: 0;
+}
+footer img{
+	width: 150px;
+	height: 100px;
+	border: solid 3px;
+}
+footer a{
+	text-decoration: none;
+	color: #1d0df5;
+}
